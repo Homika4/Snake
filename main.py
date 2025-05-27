@@ -2,7 +2,6 @@
 import turtle
 import math
 import random
-from playsound import playsound
 import pygame
 
 #Set up pygame
