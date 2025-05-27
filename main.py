@@ -1,4 +1,9 @@
 #Turtle Graphics Game
+import os
+if not os.environ.get("RENDER"):  # RENDER is always set in Render.com env
+    import pygame.mixer
+    pygame.mixer.init()
+
 import turtle
 import math
 import random
